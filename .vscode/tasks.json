@@ -1,0 +1,139 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Complete Pipeline (Master Script)",
+            "type": "shell",
+            "command": "python src/run_pipeline.py",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": [],
+            "detail": "🚀 Runs the complete pipeline using master script (recommended)"
+        },
+        {
+            "label": "Run Full Pipeline (Individual Scripts)",
+            "type": "shell",
+            "command": "python src/01_ingest_clean.py && python src/02_extract_skills.py && python src/03_role_stats.py && python src/04_generate_charts.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": [],
+            "detail": "Runs all pipeline scripts sequentially (alternative method)"
+        },
+        {
+            "label": "Start Streamlit Dashboard",
+            "type": "shell",
+            "command": "streamlit run app/streamlit_app.py",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "showReuseMessage": false,
+                "clear": false
+            },
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "^.*$",
+                    "file": 1,
+                    "location": 2,
+                    "message": 3
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "^.*Collecting usage statistics.*$",
+                    "endsPattern": "^.*You can now view your Streamlit app.*$"
+                }
+            },
+            "detail": "Launches the interactive Streamlit dashboard (opens in browser)"
+        },
+        {
+            "label": "Run Data Ingestion Only",
+            "type": "shell",
+            "command": "python src/01_ingest_clean.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Loads and cleans the raw LinkedIn job data CSV"
+        },
+        {
+            "label": "Run Skill Extraction Only",
+            "type": "shell",
+            "command": "python src/02_extract_skills.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Extracts technical skills and role categories from job descriptions"
+        },
+        {
+            "label": "Generate Charts",
+            "type": "shell",
+            "command": "python src/04_generate_charts.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Creates all visualization charts and saves to outputs/charts/"
+        },
+        {
+            "label": "Build Final Report",
+            "type": "shell",
+            "command": "python src/05_build_report.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Generates PDF/Excel reports with all insights and charts"
+        },
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+            "command": "pip install -r requirements.txt",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Installs all required Python packages from requirements.txt"
+        },
+        {
+            "label": "Clean Output Files",
+            "type": "shell",
+            "command": "Remove-Item -Path outputs/temp/* -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path outputs/charts/* -Recurse -Force -ErrorAction SilentlyContinue; Write-Host 'Output directories cleaned successfully'",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Removes all temporary and generated output files"
+        }
+    ]
+}

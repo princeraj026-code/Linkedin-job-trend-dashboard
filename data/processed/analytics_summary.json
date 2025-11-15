@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "total_jobs": 5819,
+    "generation_date": "2025-11-14 22:33:23",
+    "data_source": "LinkedIn Job Postings"
+  },
+  "roles": {
+    "total_unique_roles": 2988,
+    "top_roles": [
+      {
+        "role": "Lead Java Software Engineer",
+        "count": 158,
+        "percentage": 2.72
+      },
+      {
+        "role": "Senior Automation Tester",
+        "count": 142,
+        "percentage": 2.44
+      },
+      {
+        "role": "Lead Java Developer",
+        "count": 109,
+        "percentage": 1.87
+      },
+      {
+        "role": "Lead Automation Tester",
+        "count": 96,
+        "percentage": 1.65
+      },
+      {
+        "role": "Senior Java Software Engineer",
+        "count": 92,
+        "percentage": 1.58
+      },
+      {
+        "role": "Data Engineer",
+        "count": 75,
+        "percentage": 1.29
+      },
+      {
+        "role": "Business Analyst",
+        "count": 70,
+        "percentage": 1.2
+      },
+      {
+        "role": "Python Developer",
+        "count": 61,
+        "percentage": 1.05
+      },
+      {
+        "role": "Lead .NET Developer",
+        "count": 60,
+        "percentage": 1.03
+      },
+      {
+        "role": "Senior Test Automation Engineer",
+        "count": 55,
+        "percentage": 0.95
+      },
+      {
+        "role": "Senior ReactJS Developer",
+        "count": 52,
+        "percentage": 0.89
+      },
+      {
+        "role": "Java Team Lead",
+        "count": 47,
+        "percentage": 0.81
+      },
+      {
+        "role": "Human Resources Intern",
+        "count": 45,
+        "percentage": 0.77
+      },
+      {
+        "role": "Lead Test Automation Engineer",
+        "count": 40,
+        "percentage": 0.69
+      },
+      {
+        "role": "Data Analyst",
+        "count": 38,
+        "percentage": 0.65
+      },
+      {
+        "role": "Senior Developer",
+        "count": 35,
+        "percentage": 0.6
+      },
+      {
+        "role": "Salesforce Developer",
+        "count": 34,
+        "percentage": 0.58
+      },
+      {
+        "role": "Data Scientist",
+        "count": 34,
+        "percentage": 0.58
+      },
+      {
+        "role": "Senior JavaScript Developer",
+        "count": 32,
+        "percentage": 0.55
+      },
+      {
+        "role": "PL/SQL Developer",
+        "count": 31,
+        "percentage": 0.53
+      }
+    ]
+  },
+  "skills": {
+    "total_unique_skills": 78,
+    "total_skill_mentions": 16882,
+    "avg_skills_per_job": 2.9,
+    "top_skills": [
+      {
+        "skill": "AWS",
+        "count": 1395,
+        "percentage": 23.97
+      },
+      {
+        "skill": "Java",
+        "count": 1205,
+        "percentage": 20.71
+      },
+      {
+        "skill": "Python",
+        "count": 1201,
+        "percentage": 20.64
+      },
+      {
+        "skill": "React",
+        "count": 1048,
+        "percentage": 18.01
+      },
+      {
+        "skill": "JavaScript",
+        "count": 1037,
+        "percentage": 17.82
+      },
+      {
+        "skill": "Azure",
+        "count": 643,
+        "percentage": 11.05
+      },
+      {
+        "skill": "Git",
+        "count": 593,
+        "percentage": 10.19
+      },
+      {
+        "skill": "Machine Learning",
+        "count": 536,
+        "percentage": 9.21
+      },
+      {
+        "skill": "CI/CD",
+        "count": 490,
+        "percentage": 8.42
+      },
+      {
+        "skill": "Spring",
+        "count": 423,
+        "percentage": 7.27
+      },
+      {
+        "skill": "Oracle",
+        "count": 417,
+        "percentage": 7.17
+      },
+      {
+        "skill": "Excel",
+        "count": 401,
+        "percentage": 6.89
+      },
+      {
+        "skill": "Docker",
+        "count": 391,
+        "percentage": 6.72
+      },
+      {
+        "skill": "Jenkins",
+        "count": 387,
+        "percentage": 6.65
+      },
+      {
+        "skill": "Angular",
+        "count": 385,
+        "percentage": 6.62
+      },
+      {
+        "skill": "JIRA",
+        "count": 336,
+        "percentage": 5.77
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 308,
+        "percentage": 5.29
+      },
+      {
+        "skill": "Spark",
+        "count": 286,
+        "percentage": 4.91
+      },
+      {
+        "skill": "R",
+        "count": 284,
+        "percentage": 4.88
+      },
+      {
+        "skill": "GCP",
+        "count": 263,
+        "percentage": 4.52
+      },
+      {
+        "skill": "Go",
+        "count": 244,
+        "percentage": 4.19
+      },
+      {
+        "skill": "MySQL",
+        "count": 240,
+        "percentage": 4.12
+      },
+      {
+        "skill": "SQL Server",
+        "count": 209,
+        "percentage": 3.59
+      },
+      {
+        "skill": "Hadoop",
+        "count": 206,
+        "percentage": 3.54
+      },
+      {
+        "skill": "Node.js",
+        "count": 194,
+        "percentage": 3.33
+      },
+      {
+        "skill": "Tableau",
+        "count": 193,
+        "percentage": 3.32
+      },
+      {
+        "skill": "Salesforce",
+        "count": 186,
+        "percentage": 3.2
+      },
+      {
+        "skill": "PostgreSQL",
+        "count": 185,
+        "percentage": 3.18
+      },
+      {
+        "skill": "TypeScript",
+        "count": 178,
+        "percentage": 3.06
+      },
+      {
+        "skill": "Power BI",
+        "count": 167,
+        "percentage": 2.87
+      }
+    ]
+  },
+  "companies": {
+    "total_companies": 2496,
+    "top_companies": [
+      {
+        "company": "EPAM Anywhere",
+        "job_count": 1367,
+        "primary_work_type": "Remote",
+        "primary_location": "Delhi"
+      },
+      {
+        "company": "Tata Consultancy Services",
+        "job_count": 239,
+        "primary_work_type": "On-Site",
+        "primary_location": "Bengaluru"
+      },
+      {
+        "company": "Uplers",
+        "job_count": 200,
+        "primary_work_type": "Remote",
+        "primary_location": "India"
+      },
+      {
+        "company": "Crossover",
+        "job_count": 69,
+        "primary_work_type": "Remote",
+        "primary_location": "New Delhi"
+      },
+      {
+        "company": "Virtusa",
+        "job_count": 56,
+        "primary_work_type": "Hybrid",
+        "primary_location": "Chennai"
+      },
+      {
+        "company": "LTIMindtree",
+        "job_count": 53,
+        "primary_work_type": "Hybrid",
+        "primary_location": "Bengaluru"
+      },
+      {
+        "company": "Applicantz",
+        "job_count": 52,
+        "primary_work_type": "Hybrid",
+        "primary_location": "India"
+      },
+      {
+        "company": "Mobile Programming LLC",
+        "job_count": 43,
+        "primary_work_type": "On-Site",
+        "primary_location": "Bengaluru"
+      },
+      {
+        "company": "OptimHire",
+        "job_count": 34,
+        "primary_work_type": "On-Site",
+        "primary_location": "Vishakhapatnam"
+      },
+      {
+        "company": "NayePankh Foundation",
+        "job_count": 32,
+        "primary_work_type": "Remote",
+        "primary_location": "India"
+      }
+    ]
+  },
+  "locations": {
+    "total_locations": 149,
+    "top_locations": [
+      {
+        "city": "Bengaluru",
+        "job_count": 905,
+        "companies": 521,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "India",
+        "job_count": 564,
+        "companies": 346,
+        "primary_work_type": "Remote"
+      },
+      {
+        "city": "Hyderabad",
+        "job_count": 431,
+        "companies": 253,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "Gurugram",
+        "job_count": 379,
+        "companies": 204,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "Delhi",
+        "job_count": 374,
+        "companies": 106,
+        "primary_work_type": "Remote"
+      },
+      {
+        "city": "Chennai",
+        "job_count": 341,
+        "companies": 178,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "Mumbai",
+        "job_count": 322,
+        "companies": 222,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "Pune",
+        "job_count": 287,
+        "companies": 182,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "Noida",
+        "job_count": 218,
+        "companies": 152,
+        "primary_work_type": "On-Site"
+      },
+      {
+        "city": "New Delhi",
+        "job_count": 192,
+        "companies": 161,
+        "primary_work_type": "On-Site"
+      }
+    ]
+  },
+  "work_types": {
+    "distribution": [
+      {
+        "work_type": "Remote",
+        "count": 2370,
+        "percentage": 40.73
+      },
+      {
+        "work_type": "On-Site",
+        "count": 2358,
+        "percentage": 40.52
+      },
+      {
+        "work_type": "Hybrid",
+        "count": 986,
+        "percentage": 16.94
+      },
+      {
+        "work_type": "Not Specified",
+        "count": 105,
+        "percentage": 1.8
+      }
+    ]
+  },
+  "job_categories": {
+    "total_categories": 11,
+    "distribution": [
+      {
+        "category": "Other",
+        "count": 2519,
+        "percentage": 43.29
+      },
+      {
+        "category": "Developer",
+        "count": 2194,
+        "percentage": 37.7
+      },
+      {
+        "category": "Data Professional",
+        "count": 423,
+        "percentage": 7.27
+      },
+      {
+        "category": "QA/Testing",
+        "count": 283,
+        "percentage": 4.86
+      },
+      {
+        "category": "Business Analyst",
+        "count": 230,
+        "percentage": 3.95
+      },
+      {
+        "category": "DevOps",
+        "count": 49,
+        "percentage": 0.84
+      },
+      {
+        "category": "Project Manager",
+        "count": 43,
+        "percentage": 0.74
+      },
+      {
+        "category": "Security",
+        "count": 33,
+        "percentage": 0.57
+      },
+      {
+        "category": "Designer",
+        "count": 21,
+        "percentage": 0.36
+      },
+      {
+        "category": "Support",
+        "count": 17,
+        "percentage": 0.29
+      },
+      {
+        "category": "Database",
+        "count": 7,
+        "percentage": 0.12
+      }
+    ]
+  },
+  "experience": {
+    "level_distribution": [
+      {
+        "level": "Mid-Level",
+        "count": 3673,
+        "percentage": 63.12
+      },
+      {
+        "level": "Senior",
+        "count": 2095,
+        "percentage": 36.0
+      },
+      {
+        "level": "Junior",
+        "count": 51,
+        "percentage": 0.88
+      }
+    ],
+    "years_statistics": {
+      "average": 6.0,
+      "median": 4.0,
+      "min": 0.0,
+      "max": 600.0
+    }
+  }
+}
