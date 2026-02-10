@@ -10,13 +10,14 @@ import plotly.graph_objects as go
 import json
 from pathlib import Path
 import sys
+import os
 
-# Add parent to path for imports
-sys.path.append(str(Path(__file__).parent.parent / 'src'))
-from config import (
-    PROCESSED_DATA_DIR, ANALYTICS_JSON_FILE, CHARTS_DIR,
-    COLOR_PALETTE
-)
+# Configuration paths - hardcoded for cloud deployment
+BASE_DIR = Path(__file__).parent.parent
+PROCESSED_DATA_DIR = BASE_DIR / "data" / "processed"
+ANALYTICS_JSON_FILE = PROCESSED_DATA_DIR / "analytics_summary.json"
+CHARTS_DIR = BASE_DIR / "outputs" / "charts"
+COLOR_PALETTE = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']
 
 # Page configuration
 st.set_page_config(
