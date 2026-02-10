@@ -251,8 +251,8 @@ def load_data():
     with open(ANALYTICS_JSON_FILE, 'r', encoding='utf-8') as f:
         analytics = json.load(f)
     
-    # Load skill mappings
-    skills_file = PROCESSED_DATA_DIR / 'skill_mappings.csv'
+    # Load skill extractions
+    skills_file = PROCESSED_DATA_DIR / 'skills_extracted.csv'
     skill_df = pd.read_csv(skills_file) if skills_file.exists() else None
     
     return df, analytics, skill_df
