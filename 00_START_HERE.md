@@ -8,8 +8,9 @@
 1. **New to the project?** → Read [`QUICKSTART.md`](QUICKSTART.md)
 2. **Want to contribute?** → Read [`CONTRIBUTING.md`](CONTRIBUTING.md)
 3. **Looking for tasks?** → Check [`TODO.md`](TODO.md)
-4. **Need documentation?** → See [`README.md`](README.md)
-5. **Setup complete?** → Review [`PROJECT_SETUP_SUMMARY.md`](PROJECT_SETUP_SUMMARY.md)
+4. **Need to push code?** → See [`PUSH_COMMANDS.md`](PUSH_COMMANDS.md) for quick commands
+5. **Need documentation?** → See [`README.md`](README.md)
+6. **Setup complete?** → Review [`PROJECT_SETUP_SUMMARY.md`](PROJECT_SETUP_SUMMARY.md)
 
 ---
 

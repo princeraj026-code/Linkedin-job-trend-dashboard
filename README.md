@@ -6,6 +6,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+> 💡 **New to Git/GitHub?** See [PUSH_RESOURCE_GUIDE.md](PUSH_RESOURCE_GUIDE.md) for complete push instructions and automated scripts!
+
 ## 🎯 Project Overview
 
 This project analyzes job market trends from LinkedIn job postings using **AI-powered analytics** to help:
@@ -271,6 +273,31 @@ All project tasks are tracked in **[TODO.md](TODO.md)** with:
 - 📂 Organized by project phase
 
 Use GitHub Issues with our [task request template](.github/ISSUE_TEMPLATE/task_request.md) for collaborative work.
+
+## 📤 Pushing Code to GitHub
+
+> 📚 **Not sure where to start?** Check [PUSH_RESOURCE_GUIDE.md](PUSH_RESOURCE_GUIDE.md) to find the right resource for you!
+
+**Quick Command Reference:** See [PUSH_COMMANDS.md](PUSH_COMMANDS.md) for essential git commands
+
+**Automated Scripts:**
+- Windows PowerShell: `.\push_to_github.ps1`
+- Windows Command Prompt: `push_to_github.bat`
+- Linux/Mac: `./push_to_github.sh`
+
+**Detailed Guides:**
+- [PUSH_INSTRUCTIONS.md](PUSH_INSTRUCTIONS.md) - Complete push instructions with authentication setup
+- [GITHUB_SETUP_GUIDE.md](GITHUB_SETUP_GUIDE.md) - Step-by-step GitHub setup guide
+
+**Basic Commands:**
+```bash
+# Daily workflow
+git add .
+git commit -m "Your commit message"
+git push
+
+# First time setup - see PUSH_COMMANDS.md for full details
+```
 
 ## 🤝 Contributing
 
