@@ -6,6 +6,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+> 💡 **New to Git/GitHub?** See [PUSH_RESOURCE_GUIDE.md](PUSH_RESOURCE_GUIDE.md) for complete push instructions and automated scripts!
+
 ## 🎯 Project Overview
 
 This project analyzes job market trends from LinkedIn job postings using **AI-powered analytics** to help:
@@ -273,6 +275,8 @@ All project tasks are tracked in **[TODO.md](TODO.md)** with:
 Use GitHub Issues with our [task request template](.github/ISSUE_TEMPLATE/task_request.md) for collaborative work.
 
 ## 📤 Pushing Code to GitHub
+
+> 📚 **Not sure where to start?** Check [PUSH_RESOURCE_GUIDE.md](PUSH_RESOURCE_GUIDE.md) to find the right resource for you!
 
 **Quick Command Reference:** See [PUSH_COMMANDS.md](PUSH_COMMANDS.md) for essential git commands
 
