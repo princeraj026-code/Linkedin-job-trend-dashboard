@@ -272,6 +272,29 @@ All project tasks are tracked in **[TODO.md](TODO.md)** with:
 
 Use GitHub Issues with our [task request template](.github/ISSUE_TEMPLATE/task_request.md) for collaborative work.
 
+## 📤 Pushing Code to GitHub
+
+**Quick Command Reference:** See [PUSH_COMMANDS.md](PUSH_COMMANDS.md) for essential git commands
+
+**Automated Scripts:**
+- Windows PowerShell: `.\push_to_github.ps1`
+- Windows Command Prompt: `push_to_github.bat`
+- Linux/Mac: `./push_to_github.sh`
+
+**Detailed Guides:**
+- [PUSH_INSTRUCTIONS.md](PUSH_INSTRUCTIONS.md) - Complete push instructions with authentication setup
+- [GITHUB_SETUP_GUIDE.md](GITHUB_SETUP_GUIDE.md) - Step-by-step GitHub setup guide
+
+**Basic Commands:**
+```bash
+# Daily workflow
+git add .
+git commit -m "Your commit message"
+git push
+
+# First time setup - see PUSH_COMMANDS.md for full details
+```
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please:
